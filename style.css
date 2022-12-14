@@ -1,0 +1,123 @@
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    margin: 0;
+}
+  
+/* nav section design start  */
+.main-header {
+    background-color: #562eff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.header-body {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.right-nav-section{
+   margin-left: 470px;
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    
+}
+#profile-photo{
+    width: 51px;
+    height:51px ;
+    border-radius: 50%;
+    
+}
+.nav-item li{
+    margin-left: 20px;
+}
+.list-item-nav-title{
+    padding-top: 20px;
+}
+.list-item{
+    padding-top: 20px;
+}    
+.nav-item li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 20px;
+}
+/* nav section design end  */
+
+ /* second section design start */
+/* top player section */
+.second-section-main-div{
+    width: 60%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px 0 0 30px;
+    
+}
+.top-player {
+    color: #562EFF;
+    
+}
+.all-players-name{
+    display: grid ;
+    grid-template-columns: repeat(3 , 4fr);
+}
+.single-player-name{
+    display: flex;
+    margin-top: 10px;
+}
+.single-player-name img{
+    width: 51px;
+    height:51px ;
+    padding-right: 20px;
+}
+/* hr section */
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+    border: 1px solid  rgb(151, 147, 147);
+}
+/* blog section design start */
+.single-blog-div{
+    display: flex;
+    padding-top: 20px;
+}
+.single-blog-div img{
+    width: 200px;
+    height: 150px;
+}
+.blog-text-section{
+    margin-left: 15px;
+   padding-top: 10px;
+    
+}
+.blog-text-section h3{
+    font-size: 15px;
+
+}
+.blog-text-section p{
+    font-size: 10px;
+    color: rgba(141, 125, 125, 0.603);
+}
+#single-text{
+    color: #562EFF;
+   
+}
+.blog-main-div{
+    display: grid;
+    grid-template-columns: repeat(2 , 6fr);
+}
+
+
+
+/* blog section design end */
+
+/* second section design end */
