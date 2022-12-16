@@ -58,6 +58,7 @@ h1 {
     margin: 0 auto;
     margin-top: 40px;
     padding: 20px 0 0 30px;
+    padding-bottom: 30px;
     
 }
 .top-player {
@@ -119,5 +120,73 @@ hr{
 
 
 /* blog section design end */
+
+/* courses section design start */
+.courses-main-div{
+    width: 60%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 0 0 30px;
+    padding-bottom: 30px;
+   
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3 ,  4fr);
+    grid-gap: 5px;
+}
+.single-course {
+    padding-top: 20px;
+}
+.single-course img{
+    width: 90%;
+}
+.single-course h4{
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.single-course p{
+    font-size: 12px;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #ED6B4F;
+}
+.course-footer{
+    display: flex;
+}
+.course-left-side{
+    margin-right:4px;
+
+}
+.star-icon{
+    color: #FFC014;
+    font-size: 10px;  
+}
+.course-left-side span{
+    margin-left: 6px;
+    font-size: 13px;  
+
+}
+.course-right-side{
+    background-color:  #FFE4E8;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+   
+}
+.clock-icon{
+    color: #FF4A60;
+    font-size: 13px; 
+}  
+.course-right-side span{
+    font-size: 13px;
+    color: #FF4A60;
+    text-align: center;
+}  
+
+/* courses section design end */
 
 /* second section design end */
